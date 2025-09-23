@@ -2,7 +2,7 @@ name: Tetris Commit Game
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Atualiza a cada 12h
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -12,9 +12,10 @@ jobs:
       - uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          gif_out_path: dist/github-tetris.gif
           svg_out_path: dist/github-tetris.svg
-
+          gif_out_path: dist/github-tetris.gif
+          github_token: ${{ secrets.GH_PAT }}   # <- aqui
+          
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
