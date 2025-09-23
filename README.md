@@ -37,11 +37,8 @@
 ## 🎮 Joguinho de Tetris com meus commits
 *(atualiza sozinho 2x por dia ou quando eu rodo manualmente 🚀)*  
 
-### 🖼️ Versão leve (SVG)
 ![Tetris SVG](https://github.com/joaoaugustoaquino/joaoaugustoaquino/blob/output/github-tetris.svg)
 
-### 🎞️ Versão animada (GIF)
-![Tetris GIF](https://github.com/joaoaugustoaquino/joaoaugustoaquino/blob/output/github-tetris.gif)
 
 ---
 
