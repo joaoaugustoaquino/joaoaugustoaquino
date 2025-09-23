@@ -14,7 +14,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/github-tetris.svg
           gif_out_path: dist/github-tetris.gif
-          github_token: ${{ secrets.GH_PAT }}
+          github_token: ${{ secrets.TETRIS_GAME }}
           
       - uses: crazy-max/ghaction-github-pages@v3
         with:
