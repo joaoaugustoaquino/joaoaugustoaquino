@@ -10,6 +10,8 @@
 - 🤖 Gosto de sempre encontrar oportunidades para automatizar uma função
 - 📚 Sempre aprendendo e testando ideias novas  
 
+![Tetris GAME](https://github.com/joaoaugustoaquino/joaoaugustoaquino/blob/main/git-tetris.svg)
+
 ---
 
 ## 📊 Estatísticas do GitHub
@@ -33,6 +35,8 @@
 - 🎮 [Little Devils](https://github.com/joaoaugustoaquino/New-Little-Devils) → Jogo 2D no Godot
 
 ---
+
+
 
 ## 🎮 Joguinho de Tetris com meus commits
 *(atualiza sozinho 2x por dia ou quando eu rodo manualmente 🚀)*  
