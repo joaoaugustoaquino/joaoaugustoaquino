@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 560 160" role="img" aria-label="Tetris forming GAME">
+  <title>Tetris forming GAME</title>
+  <desc>Blocks fall and form the letters G A M E</desc>
+
+  <defs>
+    <style>
+      .block { rx:2; ry:2; stroke:#0f172a; stroke-width:1; }
+    </style>
+  </defs>
+
+  <g transform="translate(20,10)">
+
+    <!-- LETTER G (teal) -->
+    <g id="letter-G" fill="#06b6d4" transform="translate(0,0)">
+      <!-- Row0 (y=0) -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"    begin="0.00s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"    begin="0.03s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"    begin="0.06s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"    begin="0.09s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row1 (y=20) -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="20"   begin="0.12s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row2 (y=40) -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="40"   begin="0.15s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40"   begin="0.18s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row3 (y=60) -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="60"   begin="0.21s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="60"   begin="0.24s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="60"   begin="0.27s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="60"   begin="0.30s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row4 (y=80) bottom bar -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="80"   begin="0.33s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80"   begin="0.36s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80"   begin="0.39s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80"   begin="0.42s" dur="0.50s" fill="freeze"/>
+      </rect>
+    </g>
+
+    <!-- LETTER A (green) -->
+    <g id="letter-A" transform="translate(120,0)" fill="#84cc16">
+      <!-- Row0 -->
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.20s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.23s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.26s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row1 -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="20" begin="0.29s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="20" begin="0.32s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row2 (crossbar) -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.35s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.38s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.41s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.44s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.47s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row3 -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="60" begin="0.50s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="60" begin="0.53s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row4 (base) -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.56s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.59s" dur="0.50s" fill="freeze"/>
+      </rect>
+    </g>
+
+    <!-- LETTER M (orange) -->
+    <g id="letter-M" transform="translate(240,0)" fill="#f97316">
+      <!-- Row0: top of pillars -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.40s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.43s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row1: inner peaks -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="20" begin="0.46s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="20" begin="0.49s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="20" begin="0.52s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="20" begin="0.55s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row2: center low -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.58s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.61s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.64s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row3 -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="60" begin="0.67s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="60" begin="0.70s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row4 -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.73s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.76s" dur="0.50s" fill="freeze"/>
+      </rect>
+    </g>
+
+    <!-- LETTER E (blue) -->
+    <g id="letter-E" transform="translate(360,0)" fill="#60a5fa">
+      <!-- Row0 top bar -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.60s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.63s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.66s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.69s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="0"  begin="0.72s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row1 -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="20" begin="0.75s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row2 middle bar -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.78s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.81s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="40" begin="0.84s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row3 -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="60" begin="0.87s" dur="0.50s" fill="freeze"/>
+      </rect>
+
+      <!-- Row4 bottom bar -->
+      <rect class="block" x="0"  y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.90s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="20" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.93s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="40" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.96s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="60" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="0.99s" dur="0.50s" fill="freeze"/>
+      </rect>
+      <rect class="block" x="80" y="-140" width="18" height="18">
+        <animate attributeName="y" to="80" begin="1.02s" dur="0.50s" fill="freeze"/>
+      </rect>
+    </g>
+
+  </g>
+
+  <!-- caption -->
+  <text x="20" y="145" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#94a3b8">Tetris — forming "GAME"</text>
+</svg>
