@@ -43,5 +43,5 @@
 ---
 
 ## 📬 Contato
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([[https://www.linkedin.com/in/seu-perfil](https://www.linkedin.com/in/joaoaugusto-aquino)](https://www.linkedin.com/in/joaoaugusto-aquino))  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaoaugusto-aquino)
 [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:joao.guto.07@gmail.com)
