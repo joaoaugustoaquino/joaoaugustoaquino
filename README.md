@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+
+![Tetris](https://github.com/joaoaugustoaquino/joaoaugustoaquino/blob/output/github-tetris.svg)
 <!--
 **joaoaugustoaquino/joaoaugustoaquino** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
