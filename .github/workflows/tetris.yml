@@ -18,6 +18,7 @@ jobs:
           svg_out_path: dist/github-tetris.svg
           gif_out_path: dist/github-tetris.gif
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          contrib_range: 365
           
       - uses: crazy-max/ghaction-github-pages@v3
         with:
