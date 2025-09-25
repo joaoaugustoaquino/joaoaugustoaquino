@@ -5,6 +5,9 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,11 +17,11 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/github-tetris.svg
           gif_out_path: dist/github-tetris.gif
-          github_token: ${{ secrets.TETRIS_GAME }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.TETRIS_GAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
